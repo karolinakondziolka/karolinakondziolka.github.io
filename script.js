@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://salty-anchorage-76336.herokuapp.com/v1/task/getTasks';
+  const apiRoot = 'https://salty-anchorage-76336.herokuapp.com/v1/task/';
   const trelloApiRoot = 'https://salty-anchorage-76336.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
